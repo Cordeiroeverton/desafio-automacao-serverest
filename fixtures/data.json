@@ -1,0 +1,15 @@
+{
+  "newUser": {
+    "name": "Teste Cypress",
+    "email": "testeUnico@email.com",
+    "password": "senha123"
+  },
+  "existingUser": {
+    "name": "Everton Fernando Ferreira Cordeiro ",
+    "email": "cordeirof.everton@gmail.com ",
+    "password": "senha12345678910"
+  },
+  "produto": {
+    "nome": "Tasty Concrete Table"
+  }
+}

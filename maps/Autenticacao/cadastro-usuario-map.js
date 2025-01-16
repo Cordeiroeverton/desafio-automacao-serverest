@@ -1,10 +1,11 @@
+import { DataTestIds } from '../../constants/DataTestIds';
+
 const CadastroUsuarioMap = {
-    botaoCadastrar: '[data-testid="cadastrar"]',
-    campoNome: '[data-testid="nome"]',
-    campoEmail: '[data-testid="email"]',
-    campoSenha: '[data-testid="password"]',
-    mensagemSucesso: 'Cadastro realizado com sucesso',
-  };
-  
-  export default CadastroMap;
-  
+  botaoCadastrar: DataTestIds.cadastroUsuario.botaoCadastrar,
+  campoNome: DataTestIds.cadastroUsuario.campoNome,
+  campoEmail: DataTestIds.cadastroUsuario.campoEmail,
+  campoSenha: DataTestIds.cadastroUsuario.campoSenha,
+  mensagemSucesso: 'Cadastro realizado com sucesso',
+};
+
+export default CadastroUsuarioMap;

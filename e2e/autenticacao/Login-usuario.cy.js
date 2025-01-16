@@ -36,7 +36,7 @@ describe('Usuário - Fluxo de Login', () => {
         .should('be.visible')
         .and('contain', 'Credenciais inválidas')
         .then((element) => {
-          expect(element.text()).to.equal('Credenciais inválidas'); // Usando expect para validar a mensagem de erro
+          expect(element.text()).to.equal('Credenciais inválidas'); 
         });
     });
   });

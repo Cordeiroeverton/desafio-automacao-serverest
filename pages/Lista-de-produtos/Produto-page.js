@@ -1,6 +1,6 @@
 import { ProdutoMap } from '../maps/Produto-maps';
 
-export class ProdutoPage {
+class ProdutoPage {
   buscarProduto(produtoNome) {
     cy.get(ProdutoMap.campoDePesquisa).type(produtoNome);
     cy.get(ProdutoMap.botaoDePesquisa).click();
@@ -15,3 +15,5 @@ export class ProdutoPage {
     cy.url().should('include', '/minhaListaDeProdutos');
   }
 }
+
+export default ProdutoPage;

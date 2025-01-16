@@ -1,6 +1,10 @@
-export const ProdutoMap = {
-    campoDePesquisa: '[data-testid="pesquisar"]',
-    botaoDePesquisa: '[data-testid="botaoPesquisar"]',
-    botaoAdicionarAlista: '[data-testid="adicionarNaLista"]',
-    listaDeComprasLink: 'Lista de Compras',
-  };
+import { DataTestIds } from '../../constants/DataTestIds';
+
+const ProdutoMap = {
+  campoDePesquisa: DataTestIds.produto.campoDePesquisa,
+  botaoDePesquisa: DataTestIds.produto.botaoDePesquisa,
+  botaoAdicionarAlista: DataTestIds.produto.botaoAdicionarAlista,
+  listaDeComprasLink: DataTestIds.produto.listaDeComprasLink,
+};
+
+export default ProdutoMap;
